@@ -47,10 +47,12 @@ int main(void) {
 	    }
 	}
 	//output
-	for(i=0;i<n;i++)
+	printf("[\"%d\"",a[0]);
+	for(i=1;i<n;i++)
 	{
-	    printf("%d ",a[i]);
+	    printf(",\"%d\" ",a[i]);
 	}
+	printf("]");
 	return 0;
 }
 
